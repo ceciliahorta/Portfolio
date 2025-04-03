@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>Portfólio</title>
 </head>
+
 <body>
     <header class="header">
         <img class="logo" src="./img/codigo.png" alt="ícone do html">
@@ -22,50 +24,82 @@
     <section class="main" id="home">
         <div class="container_main">
             <h1 class="title">Olá, eu sou<br><strong>Maria Cecília Vandam</strong></h1>
-            <h2 class="subtitle">Desenvolvedora <strong>Front-end</strong></h2>
+            <h2 class="subtitle">Desenvolvedora <strong><span id="typing"></span></strong></h2>
             <div class="buttons">
                 <a class="button" target="_blank" href="https://github.com/MCyssa">
                     <img class="icon" src="./img/github.png" alt="Ícone do github">
-                    GitHub</a>
+                    Github
+                </a>
+
                 <a class="button" target="_blank" href="https://www.linkedin.com/in/mariacec%C3%ADlia-vandam/">
+
                     <img class="icon" src="./img/linkedin.png" alt="Ícone do linkedin">
-                    LinkedIn</a>
+                    LinkedIn
+                </a>
+
+                <a class="button" href="./img/curriculo.pdf" download>
+                    <img class="icon" src="./img/pasta-aberta.png" alt="Ícone de download">
+                    Baixar Currículo
+                </a>
+
             </div>
         </div>
         <img class="image" src="./img/chibi.png" alt="">
     </section>
 
     <section class="sobre_mim" id="sobre_mim">
-        <h2>Sobre mim</h2>
-        <p id="paragrafo">Sou uma iniciante no mundo da tecnologia. Estou cursando Ciências da Computação no Centro Universitário Unifacvest. <br>Comecei minha jornada no desenvolvimento web em junho de 2024 com um programa de cursos da Alura. Com esses cursos aprendi <strong>Javascript, HTML, CSS e React</strong> e há 2 anos aprendi <strong>Python</strong> na Udemy. Estou sempre disposta a aprender coisas novas.</p>
+        <h2 class="title">Sobre Mim</h2>
+        <p id="paragrafo">
+            Sou estudante de <strong>Ciência da Computação</strong> pelo Centro Universitário Unifacvest e apaixonada
+            por
+            tecnologia. Minha jornada no desenvolvimento web começou em junho de 2024 no Programa ONE em parceria com a
+            Alura, onde segui a carreira Front-end e aprendi
+            <strong>JavaScript, HTML, CSS e React</strong>. Além disso, há dois anos, iniciei meus estudos na área da
+            tecnologia da informação com lógica de programação com <strong>Python</strong> pela Udemy.
+            <br><br>
+            Estou sempre buscando aprender e me aprimorar, explorando novas tecnologias e desafios para evoluir como
+            desenvolvedora.
+        </p>
     </section>
 
+
     <section class="projetos" id="projetos">
-        <h2>Projetos</h2>
+        <h2 class="title">Projetos</h2>
         <div class="container_projetos">
             <div class="projeto">
                 <img class="print" src="./img/projeto1.png" alt="Print do projeto de decodificar textos">
-                <p>Decodificador de textos.<br>Feito em <strong>HTML, CSS e JavaScript</strong>.</p>
-                <a class="link" target="_blank" href=" https://mcyssa.github.io/Decodificador-de-Texto_Desafio-ALURA-2024-/">Visualizar</a>
+                <p><strong>Decodificador de textos</strong><br>Tecnologias: HTML, CSS e JavaScript</p>
+                <a class="link" target="_blank" href="https://mcyssa.github.io/Decodificador-de-Texto_Desafio-ALURA-2024-/">Visualizar</a>
             </div>
             <div class="projeto">
                 <img class="print" src="./img/projeto2.png" alt="Print do projeto de uma calculadora">
-                <p>Calculadora.<br>Feito em <strong>HTML, CSS e JavaScript</strong>.</p>
+                <p><strong>Calculadora</strong><br>Tecnologias: HTML, CSS e JavaScript</p>
                 <a class="link" target="_blank" href="https://mcyssa.github.io/Calculadora/">Visualizar</a>
             </div>
-            <div class="em_breve">
+            <div class="projeto">
+                <img class="print" src="./img/projeto3.png" alt="Print do projeto de uma calculadora">
+                <p><strong>Aluraflix</strong><br>Tecnologias: HTML, CSS, JavaScript e React</p>
+                <a class="link" target="_blank" href="https://aluraflix-challenge-2025.vercel.app/">Visualizar</a>
+            </div>
+            <div class="projeto">
+                <img class="print" src="./img/projeto4.png" alt="Print do projeto de uma calculadora">
+                <p><strong>AluraGeek</strong><br>Tecnologias: HTML, CSS e JavaScript</p>
+                <a class="link" target="_blank" href="https://mcyssa.github.io/AluraGeek_2024/">Visualizar</a>
+            </div>
+            <div class="projeto em_breve">
                 <p>Em breve</p>
             </div>
-            <div class="em_breve">
+            <div class="projeto em_breve">
                 <p>Em breve</p>
             </div>
-            <div class="em_breve">
-                <p>Em breve</p>
-            </div>
-            <div class="em_breve">
+            <div class="projeto em_breve">
                 <p>Em breve</p>
             </div>
         </div>
     </section>
+    
+
+    <script src="script.js"></script>
 </body>
+
 </html>
