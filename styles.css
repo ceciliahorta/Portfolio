@@ -87,6 +87,7 @@ nav ul li a:hover::after {
     display: flex;
     flex-direction: column;
     width: 65%;
+    gap: 10px;
 }
 
 .title {
@@ -94,9 +95,23 @@ nav ul li a:hover::after {
     font-size: 1.7rem;
 }
 
+.title-sobre {
+    text-align: center;
+}
+
 .subtitle {
     font-size: 1.6rem;
     font-weight: 300;
+}
+
+.sobre_mim {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 20px;
+    gap: 20px;
+    padding: 30px 20%;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
 strong {
@@ -146,16 +161,12 @@ strong {
     height: 25px;
 }
 /* Seções */
-.sobre_mim, .projetos {
+.projetos {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     color: #fff;
     font-size: 20px;
-    gap: 50px;
-    padding: 50px 30%;
-    text-align: center;
+    gap: 20px;
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
