@@ -257,7 +257,7 @@ strong {
 
     .link {
         font-size: 0.9rem;
-        padding: 8px 15px;
+        padding: 8px 10px;
     }
 }
 
@@ -268,8 +268,8 @@ strong {
     .navbar ul { gap: 18px; }
     .item a, .title, .subtitle { font-size: 1rem; }
     .main { padding: 14% 2%; width: 90vw; }
-    .buttons { margin-top: 5%; gap: 30px; }
-    .button { font-size: 0.8rem; gap: 7px; padding: 10px 10%; }
+    .buttons { margin-top: 5%; gap: 30px; flex-direction: column;  width: 50%;}
+    .button { font-size: 0.8rem; gap: 7px; padding: 5px; }
     .icon { width: 20px; height: 20px; }
     .image { display: none; }
     .sobre_mim { padding: 50px 12%; }
