@@ -7,4 +7,4 @@ Este é o meu portfólio pessoal, onde compartilho informações sobre mim, minh
 * CSS
 * JavaScript
 
-Link para acessar: https://mcyssa.github.io/Portfolio/
+Link para acessar: https://ceciliahorta.github.io/Portfolio/
