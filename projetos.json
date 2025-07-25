@@ -1,0 +1,51 @@
+[
+    {
+        "imagem": "projeto1.png",
+        "alt": "Decodificador de texto",
+        "titulo": "Decodificador",
+        "tecnologias": "HTML, CSS, JS",
+        "projeto": "https://ceciliahorta.github.io/Decodificador-de-Texto_Desafio-ALURA-2024-/"
+    },
+    {
+        "imagem": "projeto2.png",
+        "alt": "Print do projeto de classificação de nível de herói",
+        "titulo": "Classificar nível de herói",
+        "tecnologias": "HTML, CSS, JS",
+        "projeto": "https://ceciliahorta.github.io/desafio-js-nivel-heroi/"
+    },
+    {
+        "imagem": "projeto3.png",
+        "alt": "Print do projeto Aluraflix",
+        "titulo": "Aluraflix",
+        "tecnologias": "HTML, CSS, JS, React",
+        "projeto": "https://aluraflix-challenge-2025.vercel.app/"
+    },
+    {
+        "imagem": "projeto4.png",
+        "alt": "Print do projeto Alurageek",
+        "titulo": "Alurageek",
+        "tecnologias": "HTML, CSS, JS",
+        "projeto": "https://ceciliahorta.github.io/AluraGeek_2024/"
+    },
+    {
+        "imagem": "projeto5.png",
+        "alt": "Print do projeto gerenciador de tarefas",
+        "titulo": "Gerenciador de Tarefas",
+        "tecnologias": "HTML, CSS, JS",
+        "projeto": "https://ceciliahorta.github.io/gerenciador-tarefas/"
+    },
+    {
+        "imagem": "projeto6.png",
+        "alt": "Print do projeto clone do discord",
+        "titulo": "Clone do Discord",
+        "tecnologias": "HTML, CSS",
+        "projeto": "https://ceciliahorta.github.io/desafio-responsividade/"
+    },
+    {
+        "imagem": "projeto7.png",
+        "alt": "Print do projeto trilha CSS",
+        "titulo": "Trilha CSS",
+        "tecnologias": "HTML, CSS",
+        "projeto": "https://ceciliahorta.github.io/trilha-css-santander-2025/"
+    }
+]

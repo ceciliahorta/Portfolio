@@ -32,3 +32,21 @@ const navbar = document.getElementById('navbar');
 menuToggle.addEventListener('click', () => {
     navbar.classList.toggle('active');
 });
+
+fetch('projetos.json') 
+    .then(response => response.json())
+    .then(projetos => {
+        const grid = document.querySelector(".grid-projetos");
+
+        projetos.forEach(projeto => {
+            const card = document.createElement('article');
+            card.classList.add('card');
+            card.innerHTML = `
+            <img src="./img/${projeto.imagem}" alt="${projeto.alt}">
+            <h3>${projeto.titulo}</h3>
+            <p>Tecnologias: ${projeto.tecnologias}</p>
+            <a href="${projeto.projeto}" target="_blank">Ver projeto</a>
+            `;
+            grid.appendChild(card);
+        });
+    });

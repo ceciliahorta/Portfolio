@@ -2,120 +2,112 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Portfólio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Maria Cecília</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header class="header">
-        <img class="logo" src="./img/codigo.png" alt="ícone do html">
+  <header>
+    <div class="container header-container">
+      <a href="#home" class="logo-link">
+        <img src="./img/codigo.png" alt="Ícone do HTML" class="logo">
+      </a>
 
-        <div class="menu-toggle" id="menu-toggle">
-            <img src="./img/icon_menu.svg" alt="">
+      <nav id="navbar" class="navbar" aria-label="Menu principal">
+        <ul class="nav-list">
+          <li><a href="#home">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+        </ul>
+      </nav>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+        <img src="./img/icon_menu.svg" alt="Abrir menu">
+      </button>
+    </div>
+
+  </header>
+
+  <main id="home" class="hero">
+    <div class="container hero-content">
+      <section class="intro">
+        <h1>Olá, eu sou<br><strong>Maria Cecília Vandam</strong></h1>
+        <h2>Desenvolvedora <strong><span id="typing"></span></strong></h2>
+
+        <div class="social-buttons">
+          <a href="https://github.com/ceciliahorta" target="_blank" class="button github">
+            <img src="./img/github.png" alt="Github">Github
+          </a>
+          <a href="https://www.linkedin.com/in/mariacec%C3%ADlia-vandam/" target="_blank" class="button linkedin">
+            <img src="./img/linkedin.png" alt="LinkedIn">LinkedIn
+          </a>
+          <a href="./img/curriculo.pdf" download class="button resume">
+            <img src="./img/pasta-aberta.png" alt="Currículo">Currículo
+          </a>
         </div>
+      </section>
 
-        <nav class="navbar" id="navbar">
-            <ul>
-                <li class="item"><a href="#home">Home</a></li>
-                <li class="item"><a href="#sobre_mim">Sobre mim</a></li>
-                <li class="item"><a href="#projetos">Projetos</a></li>
-            </ul>
-        </nav>
-    </header>
+      <figure class="hero-image">
+        <img src="./img/chibi.png" alt="Ilustração da desenvolvedora">
+      </figure>
+    </div>
+  </main>
 
-    <section class="main" id="home">
-        <div class="container_main">
-            <h1 class="title">Olá, eu sou<br><strong>Maria Cecília Vandam</strong></h1>
-
-            <h2 class="subtitle">Desenvolvedora <strong><span id="typing"></span></strong></h2>
-
-            <div class="buttons">
-                <a class="button" target="_blank" href="https://github.com/ceciliahorta">
-                    <img class="icon" src="./img/github.png" alt="Ícone do github">
-                    Github
-                </a>
-
-                <a class="button" target="_blank" href="https://www.linkedin.com/in/mariacec%C3%ADlia-vandam/">
-
-                    <img class="icon" src="./img/linkedin.png" alt="Ícone do linkedin">
-                    LinkedIn
-                </a>
-
-                <a class="button" href="./img/curriculo.pdf" download>
-                    <img class="icon" src="./img/pasta-aberta.png" alt="Ícone de download">
-                    Baixar Currículo
-                </a>
-
-            </div>
-        </div>
-        <img class="image" src="./img/chibi.png" alt="">
-    </section>
-
-
-    <section class="sobre_mim" id="sobre_mim">
-        <h2 class="title-sobre">Sobre Mim</h2>
-        <p id="paragrafo">
-            Sou estudante de <strong>Ciência da Computação</strong> pelo Centro Universitário Unifacvest e entusiasta da
-            tecnologia.
-            Minha jornada no desenvolvimento web começou em junho de 2024, por meio do Programa ONE em parceria com a
-            Alura, onde segui a trilha de Front-end e adquiri conhecimentos em <strong>JavaScript, HTML, CSS e
-                React</strong>. <br><br>
-            Antes disso, iniciei meus estudos em tecnologia da informação com lógica de programação em
-            <strong>Python</strong> pela
-            Udemy, o que despertou ainda mais meu interesse pela área. <br><br>
-            Sou movida pela curiosidade e pela vontade constante de aprender. Estou sempre em busca de novos desafios e
-            tecnologias para evoluir como desenvolvedora e contribuir com projetos de forma criativa e eficiente.
+  <section id="sobre" class="sobre">
+    <div class="container">
+      <h2>Sobre Mim</h2>
+      <article>
+        <p>
+          Sou estudante de <strong>Ciência da Computação</strong> pela Unifacvest e entusiasta da tecnologia. Minha
+          jornada no desenvolvimento web começou em junho de 2024, com o Programa ONE em parceria com a Alura, onde
+          estudei <strong>HTML, CSS, JavaScript e React</strong>.<br><br>
+          Antes disso, aprendi lógica de programação em <strong>Python</strong> pela Udemy. Tenho paixão por aprender,
+          gosto de enfrentar desafios e estou sempre em busca de evoluir como desenvolvedora.
         </p>
-    </section>
+      </article>
+    </div>
 
-
-    <section class="projetos" id="projetos">
-        <h2 class="title">Projetos de estudo</h2>
-        <div class="container_projetos">
-            <div class="projeto">
-                <img class="print" src="./img/projeto1.png" alt="Print do projeto de decodificar textos">
-                <p><strong>Decodificador de textos</strong><br>Tecnologias: HTML, CSS e JavaScript</p>
-                <a class="link" target="_blank"
-                    href=" https://ceciliahorta.github.io/Decodificador-de-Texto_Desafio-ALURA-2024-/">Visualizar</a>
-            </div>
-            <div class="projeto">
-                <img class="print" src="./img/projeto2.png" alt="Print do projeto de uma calculadora">
-                <p><strong>Calculadora</strong><br>Tecnologias: HTML, CSS e JavaScript</p>
-                <a class="link" target="_blank" href="https://ceciliahorta.github.io/Calculadora/">Visualizar</a>
-            </div>
-            <div class="projeto">
-                <img class="print" src="./img/projeto3.png" alt="Print do projeto Aluraflix">
-                <p><strong>Aluraflix</strong><br>Tecnologias: HTML, CSS, JavaScript e React</p>
-                <a class="link" target="_blank" href="https://aluraflix-challenge-2025.vercel.app/">Visualizar</a>
-            </div>
-            <div class="projeto">
-                <img class="print" src="./img/projeto4.png" alt="Print do projeto Alurageek">
-                <p><strong>AluraGeek</strong><br>Tecnologias: HTML, CSS e JavaScript</p>
-                <a class="link" target="_blank" href="https://ceciliahorta.github.io/AluraGeek_2024/">Visualizar</a>
-            </div>
-            <div class="projeto">
-                <img class="print" src="./img/projeto5.png" alt="Print do projeto de um gerenciador de tarefas">
-                <p><strong>Gerenciador de Tarefas</strong><br>Tecnologias: HTML, CSS e JavaScript</p>
-                <a class="link" target="_blank"
-                    href="https://ceciliahorta.github.io/gerenciador-tarefas/">Visualizar</a>
-            </div>
-            <div class="projeto em_breve">
-                <p>Em breve</p>
-            </div>
-            <div class="projeto em_breve">
-                <p>Em breve</p>
-            </div>
-            <div class="projeto em_breve">
-                <p>Em breve</p>
-            </div>
+    <div class="container">
+      <h2>Principais tecnologias</h2>
+      <article class="tecnologias">
+        <div class="card-tecnologia">
+          <img src="./img/html-5.png" alt="">
+          <span>HTML</span>
         </div>
-    </section>
 
+        <div class="card-tecnologia">
+          <img src="./img/css-3.png" alt="">
+          <span>CSS</span>
+        </div>
 
-    <script src="script.js"></script>
+        <div class="card-tecnologia">
+          <img src="./img/js.png" alt="">
+          <span>JavaScript</span>
+        </div>
+
+        <div class="card-tecnologia">
+          <img src="./img/reactjs.png" alt="">
+          <span>React</span>
+        </div>
+
+      </article>
+    </div>
+
+  </section>
+
+  <section id="projetos" class="projetos">
+    <div class="container">
+      <h2>Projetos de Estudo</h2>
+      <div class="grid-projetos"></div>
+    </div>
+  </section>
+
+  <footer>
+    <h2>Desenvolvido por <span>Maria Cecília de Medeiros Vandam Horta</span></h2>
+    <p><span>Email: </span>mariacecilia.mvh@gmail.com</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-
-</html>
