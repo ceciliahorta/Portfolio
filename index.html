@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio | Maria Cecília</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./Styles/styles.css">
+  <link rel="stylesheet" href="./Styles/responsive.css">
 </head>
 
 <body>
@@ -36,6 +37,18 @@
         <h1>Olá, eu sou<br><strong>Maria Cecília Vandam</strong></h1>
         <h2>Desenvolvedora <strong><span id="typing"></span></strong></h2>
 
+        <div class="contacts">
+          <div class="fone">
+            <img src="./img/icons8-telefone-da-maçã-500.png" alt="">
+            <p>(51) 99984-7602</p>
+          </div>
+
+          <div class="email">
+            <img src="./img/icons8-nova-mensagem-90.png" alt="">
+            <p>mariacecilia.mvh@gmail.com</p>
+          </div>
+        </div>
+
         <div class="social-buttons">
           <a href="https://github.com/ceciliahorta" target="_blank" class="button github">
             <img src="./img/github.png" alt="Github">Github
@@ -59,43 +72,79 @@
     <div class="container">
       <h2>Sobre Mim</h2>
       <article>
+
         <p>
-          Sou estudante de <strong>Ciência da Computação</strong> pela Unifacvest e entusiasta da tecnologia. Minha
-          jornada no desenvolvimento web começou em junho de 2024, com o Programa ONE em parceria com a Alura, onde
-          estudei <strong>HTML, CSS, JavaScript e React</strong>.<br><br>
-          Antes disso, aprendi lógica de programação em <strong>Python</strong> pela Udemy. Tenho paixão por aprender,
-          gosto de enfrentar desafios e estou sempre em busca de evoluir como desenvolvedora.
+          Sou estudante de <strong>Ciência da Computação</strong> na Unifacvest e apaixonada por tecnologia.
+          Minha jornada começou em 2023, quando estudei <strong>lógica de programação em Python</strong> pela Udemy.
+          Em 2024, participei do Programa ONE em parceria com a Alura, onde aprendi <strong>HTML, CSS, JavaScript e
+            React</strong>. <br><br>
+          Desde então, venho aprimorando minhas habilidades em <strong>HTML semântico, CSS responsivo e boas práticas em
+            JavaScript</strong>
+          através de cursos e projetos práticos. Participei do <strong>Bootcamp Santander 2025 - Front-End</strong>, que
+          proporcionou uma boa experiência com conteúdo técnico e aprofundado e desenvolvimento de projetos práticos.
+          <br><br>
+          Sou curiosa, gosto de resolver problemas e estou sempre em busca de novos desafios que me permitam evoluir
+          como desenvolvedora e contribuir em projetos criativos e inovadores.
         </p>
-      </article>
-    </div>
 
-    <div class="container">
-      <h2>Principais tecnologias</h2>
-      <article class="tecnologias">
-        <div class="card-tecnologia">
-          <img src="./img/html-5.png" alt="">
-          <span>HTML</span>
-        </div>
-
-        <div class="card-tecnologia">
-          <img src="./img/css-3.png" alt="">
-          <span>CSS</span>
-        </div>
-
-        <div class="card-tecnologia">
-          <img src="./img/js.png" alt="">
-          <span>JavaScript</span>
-        </div>
-
-        <div class="card-tecnologia">
-          <img src="./img/reactjs.png" alt="">
-          <span>React</span>
-        </div>
 
       </article>
     </div>
-
   </section>
+
+  <section class="tecnologias">
+    <h2>Principais Tecnologias</h2>
+    <div class="cards">
+      <div class="card-tecnologia">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="./img/html-5.png" alt="HTML5">
+            <span>HTML</span>
+          </div>
+          <div class="card-back">
+            <p>Estrutura semântica para páginas web, garantindo acessibilidade e boas práticas.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-tecnologia">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="./img/css-3.png" alt="CSS3">
+            <span>CSS</span>
+          </div>
+          <div class="card-back">
+            <p>Layouts responsivos, animações e design moderno.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-tecnologia">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="./img/js.png" alt="JavaScript">
+            <span>JavaScript</span>
+          </div>
+          <div class="card-back">
+            <p>Interatividade, manipulação do DOM e consumo de APIs.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-tecnologia">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="./img/reactjs.png" alt="React">
+            <span>React</span>
+          </div>
+          <div class="card-back">
+            <p>Biblioteca JavaScript para criar interfaces dinâmicas e componentes reutilizáveis.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <section id="projetos" class="projetos">
     <div class="container">
@@ -106,7 +155,6 @@
 
   <footer>
     <h2>Desenvolvido por <span>Maria Cecília de Medeiros Vandam Horta</span></h2>
-    <p><span>Email: </span>mariacecilia.mvh@gmail.com</p>
   </footer>
 
   <script src="script.js"></script>
